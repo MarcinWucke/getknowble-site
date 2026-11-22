@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Night Shift Ready – Knowble</title>
+<meta name="description" content="The hour-by-hour sleep plan for nurses on 12-hour nights: a ~50-page guide, plan and tracker built from 170+ studies.">
+<link rel="canonical" href="https://getknowble.com/products/night-shift-ready/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Night Shift Ready – Knowble">
+<meta property="og:description" content="The hour-by-hour sleep plan for nurses on 12-hour nights: a ~50-page guide, plan and tracker built from 170+ studies.">
+<meta property="og:url" content="https://getknowble.com/products/night-shift-ready/">
+<meta property="og:image" content="https://getknowble.com/assets/img/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon.png" sizes="32x32">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preload" href="/assets/fonts/InstrumentSerif-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<meta name="theme-color" content="#15110E">
+<style>
+@font-face{font-family:"Instrument Serif";src:url("/assets/fonts/InstrumentSerif-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Instrument Serif";src:url("/assets/fonts/InstrumentSerif-Italic.woff2") format("woff2");font-weight:400;font-style:italic;font-display:swap}
+@font-face{font-family:"Manrope";src:url("/assets/fonts/Manrope-400.woff2") format("woff2");font-weight:400}
+@font-face{font-family:"Manrope";src:url("/assets/fonts/Manrope-500.woff2") format("woff2");font-weight:500}
+@font-face{font-family:"Manrope";src:url("/assets/fonts/Manrope-600.woff2") format("woff2");font-weight:600}
+@font-face{font-family:"Manrope";src:url("/assets/fonts/Manrope-700.woff2") format("woff2");font-weight:700}
+@font-face{font-family:"Manrope";src:url("/assets/fonts/Manrope-800.woff2") format("woff2");font-weight:800}
+body{margin:0}
+a{color:#16120F}a:hover{color:#5E574F}
+.kb-grain{background-color:#F2EEE7;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .055 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");background-size:240px 240px}
+.kb-cta:hover{color:#F2EEE7 !important}.kb-cta:hover .kb-dot{transform:translateX(3px)}
+@media (max-width:760px){.navlinks{display:none !important}.kb-side{display:none}}
+@keyframes kbL{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@keyframes kbR{from{transform:translateX(-50%)}to{transform:translateX(0)}}
+.kb-left{animation-name:kbL;animation-timing-function:linear;animation-iteration-count:infinite}
+.kb-right{animation-name:kbR;animation-timing-function:linear;animation-iteration-count:infinite}
+@keyframes kbUp{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:none}}
+.kb-reveal{animation:kbUp .9s ease-out both}
+@supports (animation-timeline: view()){.kb-reveal{animation:kbUp linear both;animation-timeline:view();animation-range:entry 0% entry 35%}}
+@media (prefers-reduced-motion: reduce){.kb-left,.kb-right,.kb-reveal{animation:none !important}}
+@keyframes kbSettle{from{opacity:0;transform:translateY(-32px)}to{opacity:1;transform:none}}
+@keyframes kbFadeIn{from{opacity:0}to{opacity:1}}
+@keyframes kbSpreadL{to{translate:-7% 0}}
+@keyframes kbSpreadR{to{translate:6% 0}}
+@keyframes kbSpreadS{to{translate:-2% 0}}
+@keyframes kbWordUp{to{translate:0 -6%}}
+.kb-word{animation:kbFadeIn .6s ease-out both}
+.kb-b3{animation:kbSettle .7s cubic-bezier(.23,1,.32,1) .2s both}
+.kb-b2{animation:kbSettle .7s cubic-bezier(.23,1,.32,1) .34s both}
+.kb-b1{animation:kbSettle .7s cubic-bezier(.23,1,.32,1) .48s both}
+@supports (animation-timeline: scroll()){
+.kb-word{animation:kbFadeIn .6s ease-out both,kbWordUp linear both;animation-timeline:auto,scroll(root);animation-range:normal,0 70vh}
+.kb-b1{animation:kbSettle .7s cubic-bezier(.23,1,.32,1) .48s both,kbSpreadL linear both;animation-timeline:auto,scroll(root);animation-range:normal,0 70vh}
+.kb-b2{animation:kbSettle .7s cubic-bezier(.23,1,.32,1) .34s both,kbSpreadR linear both;animation-timeline:auto,scroll(root);animation-range:normal,0 70vh}
+.kb-b3{animation:kbSettle .7s cubic-bezier(.23,1,.32,1) .2s both,kbSpreadS linear both;animation-timeline:auto,scroll(root);animation-range:normal,0 70vh}
+}
+@media (prefers-reduced-motion: reduce){.kb-word,.kb-book{animation:kbFadeIn .4s ease-out both !important}}
+.kb-track{scrollbar-width:none}.kb-track::-webkit-scrollbar{display:none}
+.kb-slide{transition:transform .2s ease}
+@media (hover:hover) and (pointer:fine){.kb-slide:hover{transform:translateY(-6px)}}
+.kb-arrow{transition:background .15s ease,color .15s ease}.kb-arrow:hover{background:#16120F;color:#F2EEE7}
+details summary{list-style:none;cursor:pointer}
+details summary::-webkit-details-marker{display:none}
+details[open] .kb-plus{transform:rotate(45deg)}
+.kb-plus{transition:transform .2s ease}
+
+
+
+@media (max-width:820px){[style*="grid-template-columns"]{grid-template-columns:1fr !important}.navlinks{display:none !important}}
+</style>
+</head>
+<body>
+
+<div class="kb-grain" style="color:#16120F;font-family:Manrope,system-ui,sans-serif;font-size:16px;line-height:1.65">
+<header style="position:sticky;top:0;z-index:5;background:rgba(242,240,235,0.92);backdrop-filter:blur(8px);border-bottom:1px solid #D6CEC1;color:#16120F">
+<nav style="max-width:1200px;margin:0 auto;padding:18px 24px;display:flex;align-items:center;justify-content:space-between;gap:24px">
+<a href="/" aria-label="Knowble home" style="display:flex"><img src="/assets/img/knowble-lockup-black.svg" alt="Knowble" style="height:26px;width:auto"></a>
+<div class="navlinks" style="display:flex;align-items:center;gap:32px;font-size:14px;font-weight:600;letter-spacing:.04em;text-transform:uppercase">
+<a href="/#how" style="text-decoration:none;color:#16120F">How it works</a>
+<a href="/#products" style="text-decoration:none;color:#16120F">Products</a>
+<a href="/#approach" style="text-decoration:none;color:#16120F">Approach</a>
+<a href="/#faq" style="text-decoration:none;color:#16120F">FAQ</a>
+</div>
+<a href="mailto:hello@getknowble.com" style="text-decoration:none;background:#16120F;color:#F2EEE7;padding:12px 20px;border-radius:999px;font-size:14px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;white-space:nowrap">Partner with us</a>
+</nav>
+</header>
+<main style="max-width:1200px;margin:0 auto;padding:72px 24px 128px;display:flex;flex-direction:column;gap:96px">
+<div style="display:flex;flex-direction:column;gap:40px">
+<nav aria-label="Breadcrumb" style="font-size:13px;color:#5E574F"><a href="/" style="color:#5E574F">Home</a> / <a href="/products/" style="color:#5E574F">Products</a> / Night Shift Ready</nav>
+<div style="display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:80px;align-items:center">
+<div style="background:#E8E2D7;border-radius:20px;padding:56px 72px;display:flex;justify-content:center"><div class="kb-cover" role="img" aria-label="Night Shift Ready cover" style="position:relative;width:min(100%,340px);aspect-ratio:2/3;border-radius:3px 7px 7px 3px;overflow:hidden;background:#1F2A44;box-shadow:0 1px 0 rgba(0,0,0,.08),12px 22px 34px -18px rgba(20,20,20,.55),2px 3px 0 -1px #EDE6D6,4px 6px 0 -2px #E2D9C6"><img src="/assets/img/nsr-cover.webp" alt="" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover"><div aria-hidden="true" style="position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.35) 0%,rgba(0,0,0,.1) 4%,rgba(255,255,255,.14) 6%,rgba(0,0,0,.12) 8%,transparent 11%)"></div></div></div>
+<div style="display:flex;flex-direction:column;gap:24px">
+<div style="font-size:12px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:#5E574F">Health · Night-shift nurses</div>
+<h1 style="margin:0;font-family:'Instrument Serif', Georgia, serif;font-weight:400;font-size:clamp(44px,5.5vw,76px);line-height:1;letter-spacing:-0.01em">Night Shift Ready</h1>
+<p style="margin:0;font-size:19px;line-height:1.6;color:#5E574F;max-width:520px">The hour-by-hour sleep plan for nurses on 12-hour nights, from the day before the first shift to the first real day off.</p>
+<div style="display:flex;flex-wrap:wrap;gap:8px;font-size:13px;font-weight:600">
+<span style="border:1px solid #D6CEC1;border-radius:999px;padding:6px 12px">~50-page guide</span>
+<span style="border:1px solid #D6CEC1;border-radius:999px;padding:6px 12px">9 PDF files</span>
+<span style="border:1px solid #D6CEC1;border-radius:999px;padding:6px 12px">Print, fill-on-screen &amp; phone</span>
+</div>
+<div style="display:flex;flex-direction:column;align-items:flex-start;gap:12px;margin-top:8px">
+<a href="mailto:hello@getknowble.com?subject=Night%20Shift%20Ready" style="text-decoration:none;background:#16120F;color:#F2EEE7;padding:8px 8px 8px 26px;border-radius:999px;font-weight:700;font-size:14px;letter-spacing:.06em;text-transform:uppercase;display:inline-flex;align-items:center;gap:16px">Ask about this product<span aria-hidden="true" style="display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:999px;background:#F2EEE7;color:#16120F;font-size:15px">→</span></a>
+<div style="font-size:13px;color:#5E574F">Available through our creator partners.</div></div>
+</div></div></div>
+
+<section style="display:grid;grid-template-columns:220px minmax(0,1fr);gap:48px">
+<div style="border-top:1px solid #16120F;padding-top:12px"><div style="font-size:12px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:#5E574F">What’s inside</div></div>
+<div>
+<h2 style="margin:0 0 24px;font-family:'Instrument Serif', Georgia, serif;font-weight:400;font-size:clamp(30px,3.4vw,44px);line-height:1.08">One plan, served on a plate.</h2>
+<div style="display:flex;justify-content:space-between;gap:24px;padding:16px 0;border-top:1px solid #D6CEC1"><span style="font-weight:600">The guide</span><span style="color:#5E574F;text-align:right">~50 pages · PDF</span></div>
+<div style="display:flex;justify-content:space-between;gap:24px;padding:16px 0;border-top:1px solid #D6CEC1"><span style="font-weight:600">Hour-by-hour plan</span><span style="color:#5E574F;text-align:right">Print · fill-on-screen · phone</span></div>
+<div style="display:flex;justify-content:space-between;gap:24px;padding:16px 0;border-top:1px solid #D6CEC1"><span style="font-weight:600">Tracker</span><span style="color:#5E574F;text-align:right">Print · fill-on-screen · phone</span></div>
+<div style="border-bottom:1px solid #D6CEC1"><div style="display:flex;justify-content:space-between;gap:24px;padding:16px 0;border-top:1px solid #D6CEC1"><span style="font-weight:600">2 printable add-ons</span><span style="color:#5E574F;text-align:right">PDF</span></div></div>
+</div></section>
+
+<section style="display:grid;grid-template-columns:220px minmax(0,1fr);gap:48px">
+<div style="border-top:1px solid #16120F;padding-top:12px"><div style="font-size:12px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:#5E574F">Who it’s for</div></div>
+<div style="display:flex;flex-direction:column;gap:16px;max-width:680px">
+<h2 style="margin:0;font-family:'Instrument Serif', Georgia, serif;font-weight:400;font-size:clamp(30px,3.4vw,44px);line-height:1.08">Nurses working 12-hour nights.</h2>
+<p style="margin:0;font-size:18px;color:#5E574F">For the days around a stretch of night shifts: before the first one, between them, and getting back to normal sleep on your days off.</p>
+</div></section>
+
+<section style="background:#16120F;color:#F2EEE7;border-radius:20px;padding:64px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:64px">
+<div style="display:flex;flex-direction:column;gap:16px">
+<div style="font-size:12px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:#A8A398">How it’s built</div>
+<h2 style="margin:0;font-family:'Instrument Serif', Georgia, serif;font-weight:400;font-size:clamp(30px,3.4vw,44px);line-height:1.08">170+ studies behind it. One plan in front of you.</h2>
+</div>
+<div style="display:flex;flex-direction:column;gap:14px;color:#A8A398;font-size:17px">
+<p style="margin:0">Built from systematic reviews, guidelines and peer-reviewed studies. Every claim is checked against its source before it goes in.</p>
+<p style="margin:0">The research stays in the background. You get clear steps, a plan and a tracker.</p>
+</div></section>
+
+<section style="display:grid;grid-template-columns:220px minmax(0,1fr);gap:48px">
+<div style="border-top:1px solid #16120F;padding-top:12px"><div style="font-size:12px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:#5E574F">FAQ</div></div>
+<div>
+<details style="border-top:1px solid #D6CEC1;padding:22px 0"><summary style="display:flex;justify-content:space-between;align-items:center;gap:24px;font-size:20px;font-weight:600;letter-spacing:-0.01em">What format is it?<span class="kb-plus" aria-hidden="true" style="font-size:26px;font-weight:400;line-height:1">+</span></summary><p style="margin:14px 0 0;color:#5E574F;max-width:640px">PDF files. The plan and tracker come in three versions: to print, to fill in on screen, and for your phone.</p></details>
+<details style="border-top:1px solid #D6CEC1;padding:22px 0"><summary style="display:flex;justify-content:space-between;align-items:center;gap:24px;font-size:20px;font-weight:600;letter-spacing:-0.01em">Is this medical advice?<span class="kb-plus" aria-hidden="true" style="font-size:26px;font-weight:400;line-height:1">+</span></summary><p style="margin:14px 0 0;color:#5E574F;max-width:640px">No. It’s general information based on published research, not medical advice. Talk to your doctor about your own health.</p></details>
+<div style="border-bottom:1px solid #D6CEC1"><details style="border-top:1px solid #D6CEC1;padding:22px 0"><summary style="display:flex;justify-content:space-between;align-items:center;gap:24px;font-size:20px;font-weight:600;letter-spacing:-0.01em">Can I get a refund?<span class="kb-plus" aria-hidden="true" style="font-size:26px;font-weight:400;line-height:1">+</span></summary><p style="margin:14px 0 0;color:#5E574F;max-width:640px">Refunds are handled by our team. Write to hello@getknowble.com and we’ll help.</p></details></div>
+</div></section>
+</main>
+<footer style="background:#16120F;color:#F2EEE7;border-top:1px solid #1C1C1C">
+<div style="max-width:1200px;margin:0 auto;padding:48px 24px;display:flex;flex-wrap:wrap;gap:32px;justify-content:space-between;align-items:flex-start">
+<div style="display:flex;flex-direction:column;gap:12px">
+<img src="/assets/img/knowble-lockup-white.svg" alt="Knowble" style="height:22px;width:auto;align-self:flex-start">
+<div style="font-size:24px;font-weight:600;letter-spacing:-0.02em;color:#F2EEE7;max-width:360px;line-height:1.25">Research-based digital products, built with creators.</div>
+</div>
+<div style="display:flex;flex-wrap:wrap;gap:24px;font-size:14px">
+<a href="https://instagram.com/knowblehq" style="text-decoration:none;color:#F2EEE7">Instagram</a>
+
+<a href="/privacy/" style="text-decoration:none;color:#F2EEE7">Privacy</a>
+
+<a href="https://drive.google.com/file/d/1CyAllIbXwXajBz-bKdMd2_5CEDjXKmVz/view?usp=sharing" style="text-decoration:none;color:#F2EEE7">Privacy for Creators</a>
+</div>
+</div>
+<div style="max-width:1200px;margin:0 auto;padding:0 24px 40px;font-size:13px;color:#A8A398">© 2026 Knowble</div>
+</footer>
+</div>
+
+</body>
+</html>
