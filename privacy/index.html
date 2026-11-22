@@ -75,7 +75,8 @@ details summary{list-style:none;cursor:pointer}details summary::-webkit-details-
 
 .hdr-solid{position:sticky !important;top:0;animation:none !important;background:rgba(242,238,231,.92);color:#16120F;box-shadow:0 1px 0 #D6CEC1;backdrop-filter:blur(10px)}
 .hdr-solid .pill{animation:none !important;background:#16120F !important;color:#F4EFE7 !important}
-.lookin{display:flex;gap:28px;overflow-x:auto;scroll-snap-type:x mandatory;padding:10px 4px 28px;scrollbar-width:thin}
+.lookin{display:flex;gap:28px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;padding:10px 4px 28px;scrollbar-width:none}.lookin::-webkit-scrollbar{display:none}
+.arrow-d{width:48px;height:48px;border-radius:999px;border:1px solid #16120F;background:transparent;color:#16120F;font-size:17px;cursor:pointer;transition:background .15s ease,color .15s ease}.arrow-d:hover{background:#16120F;color:#F4EFE7}.arrow-d:disabled{opacity:.3;cursor:default;background:transparent;color:#16120F}
 .lookin img{flex:0 0 auto;width:clamp(240px,30vw,380px);height:auto;scroll-snap-align:start;border-radius:3px;box-shadow:0 1px 0 rgba(0,0,0,.06),0 24px 40px -24px rgba(20,18,15,.45);background:#fff}
 
 </style>
