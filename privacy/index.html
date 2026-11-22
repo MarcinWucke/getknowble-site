@@ -38,9 +38,9 @@ body{margin:0}
 .hdr .logo-b{display:none}
 .hdr nav a{text-decoration:none}
 @supports (animation-timeline: scroll()){
-.hdr{position:fixed;animation:hdrBg linear both;animation-timeline:scroll(root);animation-range:calc(min(80svh,760px) - 120px) calc(min(80svh,760px) - 40px)}
-.hdr .logo-b{display:block;position:absolute;left:0;top:0;opacity:0;animation:fadeIn linear both;animation-timeline:scroll(root);animation-range:calc(min(80svh,760px) - 120px) calc(min(80svh,760px) - 40px)}
-.hdr .pill{animation:pillSwap linear both;animation-timeline:scroll(root);animation-range:calc(min(80svh,760px) - 120px) calc(min(80svh,760px) - 40px)}
+.hdr{position:fixed;animation:hdrBg linear both;animation-timeline:scroll(root);animation-range:calc(max(520px,calc(100svh - 150px)) - 120px) calc(max(520px,calc(100svh - 150px)) - 40px)}
+.hdr .logo-b{display:block;position:absolute;left:0;top:0;opacity:0;animation:fadeIn linear both;animation-timeline:scroll(root);animation-range:calc(max(520px,calc(100svh - 150px)) - 120px) calc(max(520px,calc(100svh - 150px)) - 40px)}
+.hdr .pill{animation:pillSwap linear both;animation-timeline:scroll(root);animation-range:calc(max(520px,calc(100svh - 150px)) - 120px) calc(max(520px,calc(100svh - 150px)) - 40px)}
 }
 @keyframes hdrBg{from{background:rgba(242,238,231,0);color:#F4EFE7;box-shadow:0 1px 0 rgba(214,206,193,0)}to{background:rgba(242,238,231,.9);color:#16120F;box-shadow:0 1px 0 #D6CEC1;backdrop-filter:blur(10px)}}
 @keyframes fadeIn{to{opacity:1}}
